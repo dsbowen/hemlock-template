@@ -1,6 +1,7 @@
 cython
-hemlock-survey>=0.0.40
+hemlock-survey>=0.0.45
 ipykernel>=5.3.4
-pyyaml>=5.3.1
 pip
+pyyaml>=5.3.1
 setuptools
+wheel
