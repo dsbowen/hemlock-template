@@ -1,4 +1,4 @@
 cython
 gunicorn>=20.0.4
-hemlock-survey>=0.0.45
+hemlock-survey>=0.0.47
 psycopg2>=2.8.4

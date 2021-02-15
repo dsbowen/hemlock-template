@@ -1,5 +1,5 @@
 cython
-hemlock-survey>=0.0.45
+hemlock-survey>=0.0.47
 ipykernel>=5.3.4
 pip
 pyyaml>=5.3.1
