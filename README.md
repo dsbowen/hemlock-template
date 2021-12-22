@@ -8,10 +8,16 @@ This project was created with [Hemlock](https://dsbowen.gitlab.io/hemlock) - a p
 $ python app.py
 ```
 
-Or
+## Test the app locally
 
 ```bash
-$ gunicorn --worker-class eventlet --workers 1 app:app
+$ make test
+```
+
+If your tests passed, view the code coverage report with:
+
+```bash
+$ make testserve
 ```
 
 ## Deploy to Heroku
