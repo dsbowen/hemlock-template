@@ -15,7 +15,7 @@ def seed():
     """Creates the main survey branch.
 
     Returns:
-        list[Page]: List of pages shown to the user.
+        List[Page]: List of pages shown to the user.
     """
     return [
         Page(
