@@ -16,9 +16,9 @@ tasks:
       pip install -e .
     # set VS_CODE_REMOTE to True when working in VS code remote desktop
     command: |
-      code src/__init__.py
       export VS_CODE_REMOTE=False FLASK_ENV=development
       pip install -r requirements.txt
+      code src/__init__.py
       python app.py
 
 vscode:
