@@ -5,8 +5,6 @@ pylint
 tox
 
 git+https://gitlab.com/dsbowen/hemlock@master#egg=hemlock-survey
-# need to downgrade eventlet, see this issue:
-# https://github.com/eventlet/eventlet/issues/702
-eventlet==0.30.2
+eventlet
 gunicorn
 psycopg2

@@ -1,5 +1,7 @@
 """Create the application.
 """
+import os
+
 from hemlock import create_app
 from hemlock.app import socketio
 
@@ -7,7 +9,7 @@ import src
 
 app = create_app()
 
-if app.config["ENV"] == "production":
+if os.getenv("FLASK_ENV") == "production":
     # Don't allow users to restart and block duplicate IP addresses in production
     app.config.update(ALLOW_USERS_TO_RESTART=False, BLOCK_DUPLICATE_KEYS=["ipv4"])
 
